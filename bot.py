@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "YOUR_REAL_BOT_TOKEN"
-ADMINS = [YOUR_TELEGRAM_ID]
+BOT_TOKEN = "8741953371:AAFz3PJ8meWt_ySjXN30y41dxQhZfRGszEk"
+ADMINS = [6562354897]
 RESTRICTED_TOPICS = []
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
